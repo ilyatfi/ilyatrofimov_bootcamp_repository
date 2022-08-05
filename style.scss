@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* TOP SECTION */
+
+.top-section {
+    height: 735px;
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    display: block;
+    padding: 0 117px;
+
+    .top-nav {
+        height: 77px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #fff;
+
+        .logo {
+            font-weight: 600;
+            font-size: 36px;
+        }
+        form {
+            width: 288px;
+            height: 41px;
+
+            input {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                border: 1px solid #FFFFFF;
+                border-radius: 20px;
+                background: none;
+            }
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 170px;
+
+            div {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .content {
+        width: 792px;
+        
+        h1 {
+            font-weight: 600;
+            font-size: 64px;
+        }
+        p {
+            font-size: 24px;
+        }
+        a {
+            color: #fff;
+        }
+    }
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+#forniture-for {
+    display: block;
+    padding: 0 117px;
+
+    .box-container {
+        display: block;
+        font-weight: 600;
+        font-size: 34px;
+        color: #fff;
+
+        .first {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 32px;
+            margin-bottom: 32px;
+
+            div {
+                width: 584px;
+                height: 415px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .second {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 32px;
+
+            div {
+                width: 379px;
+                height: 415px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .relax-box {
+            background: url(./assets/relax.png) no-repeat;
+        }
+        .work-box {
+            background: url(./assets/work.png) no-repeat;
+        }
+        .kitchen-box {
+            background: url(./assets/kitchen.png) no-repeat;
+        }
+        .children-box {
+            background: url(./assets/children.png) no-repeat;
+        }
+        .bathroom-box {
+            background: url(./assets/bathroom.png) no-repeat;
+        }
+    }
+}
+
+#spec-offers {
+    display: block;
+    padding: 0 117px;
+
+    .box-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+            width: 379px;
+            height: 250px;
+        }
+    }
+}
